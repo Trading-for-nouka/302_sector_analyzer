@@ -73,7 +73,7 @@ def analyze_sectors():
     results = sorted(results, key=lambda x: x['perf_5d'], reverse=True)
 
     # メッセージ作成
-    msg = "📅 **週刊【セクター別資金流向レポート】** 📈📉\n"
+    msg = "[302_sector_analyzer] 📅 **週刊【セクター別資金流向レポート】** 📈📉\n"
     msg += "直近1週間の業種別騰落率ランキング\n"
     msg += "----------------------------------\n"
     
